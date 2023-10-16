@@ -22,3 +22,4 @@ class Work(models.Model):
     class Meta:
         verbose_name = 'Trabajo/Diseño'
         verbose_name_plural = 'Trabajos/Diseños'
+        ordering = ['-id']

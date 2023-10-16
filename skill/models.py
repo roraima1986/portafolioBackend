@@ -12,3 +12,4 @@ class Skill(models.Model):
     class Meta:
         verbose_name = 'Habilidad/Lenguaje'
         verbose_name_plural = 'Habilidades/Lenguajes'
+        ordering = ['name']
